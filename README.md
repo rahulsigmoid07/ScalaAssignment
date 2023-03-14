@@ -1,6 +1,6 @@
 # ScalaAssignment
 
-### 1. Bucketise the given array[Double] into buckets having range interval (x, x+0.049).
+### 1. Bucketise the given array[Double] into buckets having range interval (x, x+0.049).###
 
 0.000 - 0.049
 0.050 - 0.099
