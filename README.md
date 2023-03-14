@@ -19,9 +19,7 @@
 ######12.05, 12.03, 10.33, 11.45, 13.50
 ######Output- [12.050-12.099, 12.050-12.099, 10.300-10.349, 11.450-11.499, 13.500-13.549]
 
-```
-
-    object BucketWise{
+```object BucketWise{
       private def changeNum(d: Double):Double={
     
         val temp=d*1000
@@ -50,7 +48,7 @@
       }
     }```
  #####2. For given players statistics..
-   #####Found the below -
+ #####Found the below -
  #####1. Player with the best highest run scored.
  #####2. Top 5 players by run scored.
  #####3. Top 5 players by wicket taken.
@@ -61,8 +59,7 @@
  #####2021, Ram, India, 23, 300, 30
  #####2021, Mano, India, 23, 300, 13
 
-```
-object PlayerStatistics {
+```object PlayerStatistics {
 
   case class PlayerStats(PlayYear: Int, playerName: String, Country: String, Matches: Int, Runs: Int, Wickets: Int)
 
@@ -118,5 +115,5 @@ object PlayerStatistics {
     }
 
   }
-}
-```
+}```
+
